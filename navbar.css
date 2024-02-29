@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+}
+
+.maindiv{
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    font-weight: 8000;
+}
+.bdimg{
+    height: 900px;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.TRnoXLjxnhqpxPIb7TIHCgHaEo&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+

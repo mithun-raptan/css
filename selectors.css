@@ -1,0 +1,15 @@
+#h1tag{
+    color: blue;
+}
+.h2tag{
+    color: red;
+}
+h3{
+    color: aqua;
+}
+p,div{
+    color:grey;
+}
+*{
+    color:green;
+}

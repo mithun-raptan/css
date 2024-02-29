@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            margin-top: 4px;
+            position: relative;
+            animation-name: movement;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            
+
+        }
+        @keyframes movement{
+            0%{left: 0;}
+            50%{left:300px;}
+            100%{left: 0%;}
+        }
+
+        .div1{animation-timing-function: linear;}
+        .div2{animation-timing-function: ease;}
+        .div3{animation-timing-function: ease-in;}
+        .div4{animation-timing-function: ease-out;}
+        .div5{animation-timing-function:ease-in-out ;}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selectors</title>
+    <style>
+        /* descendent-selector (space) */
+            /* div p{
+                color: red;
+            } */
+
+        /* child-selector (>) */
+            /* div>p{
+                color: blue;
+            } */
+
+        /* adjacent-sibling-selctor (+) */
+            /* div+p{
+                color: green;
+            } */
+
+        /* general-sibling-selector (~) */
+            /* div~p{
+                color: brown;
+            } */
+
+    </style>
+</head>
+<body>
+    <div>
+
+        <p>father</p>
+        <p>mother</p>
+        <p>child1</p>
+        <p>child2</p>
+        
+
+
+
+        <section>
+
+            <p>cousin1</p>
+            <p>cousin2</p>
+            <p>cousin3</p>
+
+
+        </section>
+    </div>
+
+    <p>neighbour1</p>
+    <p>neighbour2</p>
+    <p>neighbour3</p>
+    <p>neighbour4</p>
+</body>
+</html>
